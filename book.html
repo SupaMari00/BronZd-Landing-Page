@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book an Appointment</title>
+    <link rel="stylesheet" href="/book.css">
+    <script defer src="/index.js"></script>
+</head>
+<body>
+    <div class="navbar">
+        <a href="/index.html"><h2>BronZd</h2></a>
+        <ul class="nav-links">
+        <li><a href="/services.html">Services</a></li>
+        <li><a href="/gallery.html">Gallery</a></li>
+        <li><a href="/testimonials.css">Testimonials</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+        <li><a href="/book.html" class="book" aria-current="page">Book Now!</a></li>
+    </ul>
+    <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
+ </div>
+    <section class="booking-section">
+    <h1>Book Your Appointment</h1>
+    <p>Schedule your spray tanning session with our easy online booking system.</p>
+    <div class="booking-container">
+      <form class="booking-form">
+    <label for="text">Full Name</label>
+    <input type="text" placeholder="Enter your full name">
+
+    <label for="email">Email</label>
+    <input type="email" placeholder="Enter your email">
+
+    <label for="number">Phone Number</label>
+    <input type="number" placeholder="Enter your phone number">
+
+    <label for="select">Service</label>
+    <select placeholder="Select a service" class="select">
+        <option value="">Express Tan</option>
+        <option value="">Classic Tan</option>
+        <option value="">Long-Lasting Tan</option>
+        <option value="">Organic Tan</option>
+        <option value="">Contour Tan</option>
+        <option value="">Bridal Package</option>
+    </select>
+
+    <label for="date">Date</label>
+    <input type="date" placeholder="Pick a date">
+
+    <label for="time">Time</label>
+    <input type="time" placeholder="Select a time">
+
+    <label for="text">Additional Notes</label>
+    <textarea id="message" rows="5" placeholder="Any special requests or information we should know?" required></textarea>
+
+    <p>Optional: Let us know if you have any specific requirements</p>
+
+    <button type="submit">Book Appointment</button>
+</form>
+</section>
+</body>
+</html>

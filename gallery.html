@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="/gallery.css">
+    <script defer src="/slider.js"></script>
+    <script defer src="/index.js"></script>
+</head>
+<body>
+    <div class="navbar">
+        <a href="/index.html"><h2>BronZd</h2></a>
+        <ul class="nav-links">
+        <li><a href="/services.html">Services</a></li>
+        <li><a  class="nav-link active" aria-current="page" href="/gallery.html">Gallery</a></li>
+        <li><a href="/testimonials.html">Testimonials</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+        <li><a href="/book.html" class="book">Book Now!</a></li>
+    </ul>
+    <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
+ </div>
+ <div class="gallery">
+    <h1>Our Gallery</h1>
+    <p>See the beautiful results of our professional spray tanning services.</p>
+ 
+ <div class="slider-container">
+    <div class="slider">
+      <img src="images/istockphoto-1151738448-612x612.jpg" class="slide active" alt="Bronzd 1">
+      <img src="images/istockphoto-1326845873-612x612.jpg" class="slide" alt="Bronzd 2">
+      <img src="images/istockphoto-159041389-612x612.jpg" class="slide" alt="Bronzd 3">
+    </div>
+  
+    <div class="dots">
+      <span class="dot active" onclick="currentSlide(0)"></span>
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+    </div>
+  
+    <button class="prev" onclick="prevSlide()">❮</button>
+    <button class="next" onclick="nextSlide()">❯</button>
+  </div>
+ </div>
+
+
+</div>
+    
+</div>
+</body>
+</html>
